@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskora - Smart Task Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Taskora<span>.</span></h2>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+            <a href="#contact" class="nav-btn">Get Started</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tagline">SMARTER WORK STARTS HERE</p>
+
+            <h1>Manage Your Work.<br>
+                <span>Achieve More.</span>
+            </h1>
+
+            <p>
+                Organize your projects, manage daily tasks
+                and track your progress with Taskora.
+            </p>
+
+            <a href="#contact" class="primary-btn">
+                Start For Free
+            </a>
+        </div>
+
+        <div class="hero-image">
+            <div class="dashboard">
+                <h3>My Dashboard</h3>
+                <p>Welcome back!</p>
+
+                <div class="stats">
+                    <div>
+                        <h2>24</h2>
+                        <p>Completed</p>
+                    </div>
+
+                    <div>
+                        <h2>08</h2>
+                        <p>In Progress</p>
+                    </div>
+                </div>
+
+                <h4>Today's Tasks</h4>
+                <p>✓ Complete website design</p>
+                <p>✓ Review project proposal</p>
+                <p>○ Prepare presentation</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2>Our Powerful Features</h2>
+        <p class="section-description">
+            Everything you need to manage your work.
+        </p>
+
+        <div class="feature-container">
+
+            <div class="feature-card">
+                <div class="feature-icon">📁</div>
+                <h3>Project Planning</h3>
+                <p>
+                    Organize projects and divide large
+                    goals into smaller tasks.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">✓</div>
+                <h3>Task Management</h3>
+                <p>
+                    Manage daily activities and
+                    complete your work on time.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>Progress Tracking</h3>
+                <p>
+                    Track your productivity and
+                    monitor project progress.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div>
+            <p class="tagline">ABOUT TASKORA</p>
+            <h2>Work Smarter,<br>Not Harder.</h2>
+
+            <p>
+                Taskora is a simple project management
+                platform designed to help individuals
+                and teams organize their work.
+                It brings projects, tasks and progress
+                together in one place.
+            </p>
+
+            <a href="#contact" class="primary-btn">
+                Explore More
+            </a>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="steps">
+        <h2>How It Works</h2>
+
+        <div class="feature-container">
+            <div class="feature-card">
+                <h3>01. Create Project</h3>
+                <p>Create your workspace and add projects.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>02. Manage Tasks</h3>
+                <p>Add tasks and organize your priorities.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>03. Track Progress</h3>
+                <p>Monitor your work and achieve your goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <h2>Simple Pricing Plans</h2>
+
+        <div class="feature-container">
+            <div class="price-card">
+                <h3>Starter</h3>
+                <h2>Free</h2>
+                <p>3 Projects</p>
+                <p>Basic Task Management</p>
+                <button class="secondary-btn">Choose Plan</button>
+            </div>
+
+            <div class="price-card popular">
+                <h3>Professional</h3>
+                <h2>₹299/month</h2>
+                <p>Unlimited Projects</p>
+                <p>Progress Tracking</p>
+                <button class="secondary-btn">Choose Plan</button>
+            </div>
+
+            <div class="price-card">
+                <h3>Team</h3>
+                <h2>₹799/month</h2>
+                <p>Team Collaboration</p>
+                <p>Advanced Reports</p>
+                <button class="secondary-btn">Choose Plan</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Let's Get Started!</h2>
+        <p>Request a free demo of Taskora.</p>
+
+        <form id="contactForm">
+            <input type="text" id="name"
+                placeholder="Your Name">
+
+            <input type="email" id="email"
+                placeholder="Your Email">
+
+            <textarea id="message"
+                placeholder="Your Message"></textarea>
+
+            <button type="submit" class="primary-btn">
+                Submit
+            </button>
+
+            <p id="formMessage"></p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h2>Taskora<span>.</span></h2>
+        <p>Make space for great work.</p>
+        <p>© 2026 Taskora. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
